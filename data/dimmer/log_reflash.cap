@@ -1,0 +1,401 @@
+2019-08-07 17:45:01.063] 
+
+[2019-08-07 17:45:01.063] [uenet/src/storage/cs_State.cpp : 493  ] startWritesToFlash
+
+[2019-08-07 17:45:01.162] [/bluenet/src/cs_Crownstone.cpp : 709  ] Memory tick() heap=0x20008280, stack=0
+
+[2019-08-07 17:45:01.167] [e/bluenet/src/ble/cs_Stack.cpp : 724  ] sd_ble_gap_adv_start(_adv_handle=0,_c)
+
+[2019-08-07 17:45:01.672] [e/bluenet/src/ble/cs_Stack.cpp : 724  ] sd_ble_gap_adv_start(_adv_handle=0,_c)
+
+[2019-08-07 17:45:01.676] [e/bluenet/src/ble/cs_Stack.cpp : 727  ] Suppress further messages about adv st
+
+[2019-08-07 17:45:02.182] [net/src/drivers/cs_Storage.cpp : 162  ] Write record=128 or type=128
+
+[2019-08-07 17:45:02.192] [net/src/drivers/cs_Storage.cpp : 401  ] Write done, record=128 or type=128
+
+[2019-08-07 17:45:05.128] [net/src/drivers/cs_Storage.cpp : 162  ] Write record=47 or type=47
+
+[2019-08-07 17:45:05.134] [net/src/drivers/cs_Storage.cpp : 401  ] Write done, record=47 or type=47
+
+[2019-08-07 17:45:28.620] [/bluenet/src/cs_Crownstone.cpp : 210  ] Init command handler
+
+[2019-08-07 17:45:28.623] [/bluenet/src/cs_Crownstone.cpp : 213  ] Init factory reset
+
+[2019-08-07 17:45:28.627] [/bluenet/src/cs_Crownstone.cpp : 216  ] Init encryption handler
+
+[2019-08-07 17:45:28.630] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 134
+
+[2019-08-07 17:45:28.633] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.636] [/bluenet/src/cs_Crownstone.cpp : 222  ] Init switch / PWM
+
+[2019-08-07 17:45:28.640] [t/src/processing/cs_Switch.cpp : 44   ] Init switch
+
+[2019-08-07 17:45:28.643] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 5
+
+[2019-08-07 17:45:28.646] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.649] [enet/include/common/cs_Types.h : 1395 ] Got PWM period: 10000
+
+[2019-08-07 17:45:28.652] [enet/include/common/cs_Types.h : 1396 ] Data value ptr: 0x20006c08
+
+[2019-08-07 17:45:28.656] [enet/include/common/cs_Types.h : 1398 ] data.value: 1
+
+[2019-08-07 17:45:28.659] [enet/include/common/cs_Types.h : 1400 ] data.value: 10000
+
+[2019-08-07 17:45:28.662] [t/src/processing/cs_Switch.cpp : 49   ] PWM period 10000 pin 8
+
+[2019-08-07 17:45:28.666] [bluenet/src/drivers/cs_PWM.cpp : 52   ] Init PWM
+
+[2019-08-07 17:45:28.668] [bluenet/src/drivers/cs_PWM.cpp : 65   ] maxTicks=40000
+
+[2019-08-07 17:45:28.672] [bluenet/src/drivers/cs_PWM.cpp : 115  ] Configure channel 0 as pin 8
+
+[2019-08-07 17:45:28.675] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 41
+
+[2019-08-07 17:45:28.678] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.681] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 129
+
+[2019-08-07 17:45:28.685] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.688] [t/src/processing/cs_Switch.cpp : 75   ] Obtained last switch state: pwm=0 rel0
+
+[2019-08-07 17:45:28.692] [/bluenet/src/cs_Crownstone.cpp : 225  ] Init temperature guard
+
+[2019-08-07 17:45:28.696] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 20
+
+[2019-08-07 17:45:28.699] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.702] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 52
+
+[2019-08-07 17:45:28.705] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.708] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 53
+
+[2019-08-07 17:45:28.711] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.714] [luenet/src/drivers/cs_COMP.cpp : 37   ] init pin=3 down=7 up=14
+
+[2019-08-07 17:45:28.718] [/bluenet/src/cs_Crownstone.cpp : 228  ] Init power sampler
+
+[2019-08-07 17:45:28.721] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 43
+
+[2019-08-07 17:45:28.724] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.727] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 44
+
+[2019-08-07 17:45:28.730] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.734] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 45
+
+[2019-08-07 17:45:28.737] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.740] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 46
+
+[2019-08-07 17:45:28.743] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.746] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 47
+
+[2019-08-07 17:45:28.749] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 50
+
+[2019-08-07 17:45:28.752] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.755] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 51
+
+[2019-08-07 17:45:28.759] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.762] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 56
+
+[2019-08-07 17:45:28.765] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.768] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 57
+
+[2019-08-07 17:45:28.771] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.774] [cessing/cs_RecognizeSwitch.cpp : 32   ] config: diff= similar= ratio=
+
+[2019-08-07 17:45:28.778] hn �% ��[rocessing/cs_PowerSampling.cpp : 97   ] Init buffers
+
+[2019-08-07 17:45:28.782] [rocessing/cs_PowerSampling.cpp : 114  ] Init ADC
+
+[2019-08-07 17:45:28.785] [bluenet/src/drivers/cs_ADC.cpp : 92   ] init: period=200us
+
+[2019-08-07 17:45:28.788] [bluenet/src/drivers/cs_ADC.cpp : 264  ] init channel 0 on ain1, range=1200mV,5
+
+[2019-08-07 17:45:28.793] [bluenet/src/drivers/cs_ADC.cpp : 264  ] init channel 1 on ain2, range=1200mV,5
+
+[2019-08-07 17:45:28.797] [/bluenet/src/cs_Crownstone.cpp : 231  ] Init watchdog
+
+[2019-08-07 17:45:28.800] [/bluenet/src/cs_Crownstone.cpp : 237  ] Configure LEDs
+
+[2019-08-07 17:45:28.803] [/bluenet/src/cs_Crownstone.cpp : 150  ] Memory init() heap=0x200079f8, stack=0
+
+[2019-08-07 17:45:28.808] [/bluenet/src/cs_Crownstone.cpp : 158  ] ---- configure ----
+
+[2019-08-07 17:45:28.811] [/bluenet/src/cs_Crownstone.cpp : 267  ] > stack ...
+
+[2019-08-07 17:45:28.814] [e/bluenet/src/ble/cs_Stack.cpp : 173  ] Init radio
+
+[2019-08-07 17:45:28.817] [e/bluenet/src/ble/cs_Stack.cpp : 178  ] nrf_sdh_ble_default_cfg_set at 0x20000
+
+[2019-08-07 17:45:28.821] [e/bluenet/src/ble/cs_Stack.cpp : 195  ] nrf_sdh_ble_enable
+
+[2019-08-07 17:45:28.825] [e/bluenet/src/ble/cs_Stack.cpp : 209  ] Softdevice enabled
+
+[2019-08-07 17:45:28.828] [e/bluenet/src/ble/cs_Stack.cpp : 242  ] Update TX Power not possible yet
+
+[2019-08-07 17:45:28.832] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 12
+
+[2019-08-07 17:45:28.835] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.838] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 128
+
+[2019-08-07 17:45:28.842] [/bluenet/src/cs_Crownstone.cpp : 699  ] Reset counter at 2
+
+[2019-08-07 17:45:28.845] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 60
+
+[2019-08-07 17:45:28.848] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.851] [e/bluenet/src/ble/cs_Stack.cpp : 302  ] Set device name to abce
+
+[2019-08-07 17:45:28.855] [/bluenet/src/cs_Crownstone.cpp : 280  ] > advertisement ...
+
+[2019-08-07 17:45:28.858] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 6
+
+[2019-08-07 17:45:28.861] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.864] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 7
+
+[2019-08-07 17:45:28.867] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.870] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 8
+
+[2019-08-07 17:45:28.873] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.877] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 9
+
+[2019-08-07 17:45:28.880] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.883] [/bluenet/src/cs_Crownstone.cpp : 362  ] iBeacon: major=0, minor=0, rssi_on_1m0
+
+[2019-08-07 17:45:28.887] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 54
+
+[2019-08-07 17:45:28.890] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.893] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 55
+
+[2019-08-07 17:45:28.897] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.900] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 25
+
+[2019-08-07 17:45:28.903] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.906] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 26
+
+[2019-08-07 17:45:28.909] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:28.912] [/bluenet/src/cs_Crownstone.cpp : 394  ] Configure iBeacon
+
+[2019-08-07 17:45:28.915] [e/bluenet/src/ble/cs_Stack.cpp : 562  ] Configuring as iBeacon
+
+[2019-08-07 17:45:28.919] [e/bluenet/src/ble/cs_Stack.cpp : 440  ] Configure iBeacon adv data
+
+[2019-08-07 17:45:28.922] [e/bluenet/src/ble/cs_Stack.cpp : 501  ] Configure scan response and call ble_e
+
+[2019-08-07 17:45:28.927] [e/bluenet/src/ble/cs_Stack.cpp : 523  ] Add UUID C001
+
+[2019-08-07 17:45:28.930] [e/bluenet/src/ble/cs_Stack.cpp : 528  ] Max name length = 4
+
+[2019-08-07 17:45:28.934] [e/bluenet/src/ble/cs_Stack.cpp : 531  ] Set BLE name to length 4
+
+[2019-08-07 17:45:28.937] [e/bluenet/src/ble/cs_Stack.cpp : 581  ] set _adv_params
+
+[2019-08-07 17:45:28.940] [e/bluenet/src/ble/cs_Stack.cpp : 880  ] _adv_handle=255
+
+[2019-08-07 17:45:28.943] [e/bluenet/src/ble/cs_Stack.cpp : 882  ] adv_data len=31 data:
+
+[2019-08-07 17:45:28.947] [e/bluenet/src/ble/cs_Stack.cpp : 888  ]   2   1   6  21  22   1 192   6 
+
+[2019-08-07 17:45:28.951] [e/bluenet/src/ble/cs_Stack.cpp : 888  ]   1   0   0   0   0   0   0   0 
+
+[2019-08-07 17:45:28.955] [e/bluenet/src/ble/cs_Stack.cpp : 888  ]   0   0   0   0   1   0   0   0 
+
+[2019-08-07 17:45:28.959] [e/bluenet/src/ble/cs_Stack.cpp : 894  ] scan_rsp_data len=0 data:
+
+[2019-08-07 17:45:28.962] [e/bluenet/src/ble/cs_Stack.cpp : 906  ] type=1
+
+[2019-08-07 17:45:28.965] [e/bluenet/src/ble/cs_Stack.cpp : 912  ] channel mask: 0x00 0x00 0x00 0x00 0x00
+
+[2019-08-07 17:45:28.969] [/bluenet/src/cs_Crownstone.cpp : 162  ] Create timer
+
+[2019-08-07 17:45:28.973] [/bluenet/src/cs_Crownstone.cpp : 166  ] ---- mode ----
+
+[2019-08-07 17:45:28.976] [/bluenet/src/cs_Crownstone.cpp : 437  ] Current mode: OPERATION_MODE_UNINITIAD
+
+[2019-08-07 17:45:28.980] [/bluenet/src/cs_Crownstone.cpp : 438  ] Switch to mode: OPERATION_MODE_SETUP
+
+[2019-08-07 17:45:28.984] [/bluenet/src/cs_Crownstone.cpp : 413  ] Create device info service
+
+[2019-08-07 17:45:28.988] [vices/cs_CrownstoneService.cpp : 31   ] Add crownstone service
+
+[2019-08-07 17:45:28.991] [e/bluenet/src/ble/cs_Stack.cpp : 319  ] Create characteristics
+
+[2019-08-07 17:45:28.994] [s_DeviceInformationService.cpp : 85   ] Device Information Service init
+
+[2019-08-07 17:45:28.998] [s_DeviceInformationService.cpp : 98   ] Characteristic Hardware Revision added
+
+[2019-08-07 17:45:29.003] [s_DeviceInformationService.cpp : 119  ] Characteristic Firmware Revision added
+
+[2019-08-07 17:45:29.007] [s_DeviceInformationService.cpp : 143  ] Characteristic Software Revision added
+
+[2019-08-07 17:45:29.011] [c/services/cs_SetupService.cpp : 28   ] Setup Service init
+
+[2019-08-07 17:45:29.014] [c/services/cs_SetupService.cpp : 36   ] Characteristic Control added
+
+[2019-08-07 17:45:29.018] [c/services/cs_SetupService.cpp : 39   ] Characteristic MAC Address added
+
+[2019-08-07 17:45:29.022] [c/services/cs_SetupService.cpp : 42   ] Characteristic Setup Encryption Key ad
+
+[2019-08-07 17:45:29.026] [c/services/cs_SetupService.cpp : 44   ] Characteristic GoTo DFU added
+
+[2019-08-07 17:45:29.030] [c/services/cs_SetupService.cpp : 47   ] Characteristic Nonce added
+
+[2019-08-07 17:45:29.034] [/bluenet/src/cs_Crownstone.cpp : 488  ] Configure setup mode
+
+[2019-08-07 17:45:29.037] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 11
+
+[2019-08-07 17:45:29.040] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:29.043] [e/bluenet/src/ble/cs_Stack.cpp : 360  ] Set TX power to 4
+
+[2019-08-07 17:45:29.046] [e/bluenet/src/ble/cs_Stack.cpp : 388  ] Update tx power level 4 for handle 0
+
+[2019-08-07 17:45:29.050] [/bluenet/src/cs_Crownstone.cpp : 509  ] Enable AES encryption
+
+[2019-08-07 17:45:29.054] [bluenet/src/ble/cs_Service.cpp : 61   ] Enable AES encryption for Device Infon
+
+[2019-08-07 17:45:29.058] [bluenet/src/ble/cs_Service.cpp : 61   ] Enable AES encryption for Setup
+
+[2019-08-07 17:45:29.062] [/bluenet/src/cs_Crownstone.cpp : 170  ] ---- init services ----
+
+[2019-08-07 17:45:29.065] [e/bluenet/src/ble/cs_Stack.cpp : 328  ] Init services
+
+[2019-08-07 17:45:29.069] [ssing/cs_EncryptionHandler.cpp : 163  ] Encrypt CTR
+
+[2019-08-07 17:45:29.072] [ssing/cs_EncryptionHandler.cpp : 574  ] Can't use this setup key (yet)
+
+[2019-08-07 17:45:29.076] [ssing/cs_EncryptionHandler.cpp : 167  ] User level not set
+
+[2019-08-07 17:45:29.079] [/src/ble/cs_Characteristic.cpp : 226  ] error encrypting data.
+
+[2019-08-07 17:45:29.083] [/bluenet/src/cs_Crownstone.cpp : 590  ] ---- startup ----
+
+[2019-08-07 17:45:29.087] [/bluenet/src/cs_Crownstone.cpp : 595  ] Content gpregret register: 0
+
+[2019-08-07 17:45:29.090] [net/src/drivers/cs_Storage.cpp : 246  ] Read record 19
+
+[2019-08-07 17:45:29.093] [net/src/drivers/cs_Storage.cpp : 286  ] Record not found
+
+[2019-08-07 17:45:29.096] [/bluenet/src/cs_Crownstone.cpp : 600  ] Boot delay: 400 ms
+
+[2019-08-07 17:45:29.505] [/bluenet/src/cs_Crownstone.cpp : 605  ] Start advertising
+
+[2019-08-07 17:45:29.507] [e/bluenet/src/ble/cs_Stack.cpp : 724  ] sd_ble_gap_adv_start(_adv_handle=0,_c)
+
+[2019-08-07 17:45:29.512] [e/bluenet/src/ble/cs_Stack.cpp : 360  ] Set TX power to 4
+
+[2019-08-07 17:45:29.567] [t/src/processing/cs_Switch.cpp : 90   ] Start switch
+
+[2019-08-07 17:45:29.569] [bluenet/src/drivers/cs_PWM.cpp : 171  ] Start
+
+[2019-08-07 17:45:29.572] [t/src/processing/cs_Switch.cpp : 439  ] relayOff
+
+[2019-08-07 17:45:29.575] [t/src/processing/cs_Switch.cpp : 447  ] trigger relay off pin for 15 ms
+
+[2019-08-07 17:45:29.594] [/bluenet/src/cs_Crownstone.cpp : 628  ] Start temp guard ...
+
+[2019-08-07 17:45:29.597] [luenet/src/drivers/cs_COMP.cpp : 93   ] start
+
+[2019-08-07 17:45:29.600] [/bluenet/src/cs_Crownstone.cpp : 632  ] Start power sampling ...
+
+[2019-08-07 17:45:29.603] [rocessing/cs_PowerSampling.cpp : 151  ] Start power sample ...
+
+[2019-08-07 17:45:29.607] 
+
+[2019-08-07 17:45:29.607]                       Address: EC:8B:61:7E:69:AA
+
+[2019-08-07 17:45:29.608] 
+
+[2019-08-07 17:45:29.609] [uenet/src/storage/cs_State.cpp : 493  ] startWritesToFlash
+
+[2019-08-07 17:45:29.708] [/bluenet/src/cs_Crownstone.cpp : 709  ] Memory tick() heap=0x20008280, stack=0
+
+[2019-08-07 17:45:29.713] [e/bluenet/src/ble/cs_Stack.cpp : 724  ] sd_ble_gap_adv_start(_adv_handle=0,_c)
+
+[2019-08-07 17:45:30.218] [e/bluenet/src/ble/cs_Stack.cpp : 724  ] sd_ble_gap_adv_start(_adv_handle=0,_c)
+
+[2019-08-07 17:45:30.222] [e/bluenet/src/ble/cs_Stack.cpp : 727  ] Suppress further messages about adv st
+
+[2019-08-07 17:45:30.727] [net/src/drivers/cs_Storage.cpp : 162  ] Write record=128 or type=128
+
+[2019-08-07 17:45:30.741] [net/src/drivers/cs_Storage.cpp : 401  ] Write done, record=128 or type=128
+
+[2019-08-07 17:45:51.466] [e/bluenet/src/ble/cs_Stack.cpp : 991  ] BLE event 16 (0x10) BLE_GAP_EVT_CONNED
+
+[2019-08-07 17:45:51.470] [e/bluenet/src/ble/cs_Stack.cpp : 1245 ] Connection event
+
+[2019-08-07 17:45:51.473] [/bluenet/src/cs_Crownstone.cpp : 312  ] onConnect...
+
+[2019-08-07 17:45:51.476] [net/src/ble/cs_ServiceData.cpp : 239  ] Event: EVT_BLE_CONNECT
+
+[2019-08-07 17:45:59.606] [e/bluenet/src/ble/cs_Stack.cpp : 991  ] BLE event 17 (0x11) BLE_GAP_EVT_DISCOD
+
+[2019-08-07 17:45:59.609] [/bluenet/src/cs_Crownstone.cpp : 331  ] onDisconnect...
+
+[2019-08-07 17:45:59.612] [e/bluenet/src/ble/cs_Stack.cpp : 360  ] Set TX power to 4
+
+[2019-08-07 17:45:59.616] [net/src/ble/cs_ServiceData.cpp : 244  ] Event: EVT_BLE_DISCONNECT
+
+[2019-08-07 17:46:01.672] [e/bluenet/src/ble/cs_Stack.cpp : 991  ] BLE event 16 (0x10) BLE_GAP_EVT_CONNED
+
+[2019-08-07 17:46:01.675] [e/bluenet/src/ble/cs_Stack.cpp : 1245 ] Connection event
+
+[2019-08-07 17:46:01.678] [/bluenet/src/cs_Crownstone.cpp : 312  ] onConnect...
+
+[2019-08-07 17:46:01.682] [net/src/ble/cs_ServiceData.cpp : 239  ] Event: EVT_BLE_CONNECT
+
+[2019-08-07 17:46:09.393] [e/bluenet/src/ble/cs_Stack.cpp : 991  ] BLE event 17 (0x11) BLE_GAP_EVT_DISCOD
+
+[2019-08-07 17:46:09.397] [/bluenet/src/cs_Crownstone.cpp : 331  ] onDisconnect...
+
+[2019-08-07 17:46:09.400] [e/bluenet/src/ble/cs_Stack.cpp : 360  ] Set TX power to 4
+
+[2019-08-07 17:46:09.404] [net/src/ble/cs_ServiceData.cpp : 244  ] Event: EVT_BLE_DISCONNECT
+
+[2019-08-07 17:46:28.621] [processing/cs_FactoryReset.cpp : 45   ] Recovery period expired
+
+[2019-08-07 17:46:30.376] [/bluenet/src/cs_Crownstone.cpp : 709  ] Memory tick() heap=0x20006fd8, stack=0
+
+[2019-08-07 17:46:30.381] [net/src/ble/cs_ServiceData.cpp : 377  ] sendMeshState
+
+[2019-08-07 17:47:07.611] [e/bluenet/src/ble/cs_Stack.cpp : 991  ] BLE event 16 (0x10) BLE_GAP_EVT_CONNED
+
+[2019-08-07 17:47:07.614] [e/bluenet/src/ble/cs_Stack.cpp : 1245 ] Connection event
+
+[2019-08-07 17:47:07.617] [/bluenet/src/cs_Crownstone.cpp : 312  ] onConnect...
+
+[2019-08-07 17:47:07.622] [net/src/ble/cs_ServiceData.cpp : 239  ] Event: EVT_BLE_CONNECT
+
+[2019-08-07 17:47:15.487] [e/bluenet/src/ble/cs_Stack.cpp : 991  ] BLE event 17 (0x11) BLE_GAP_EVT_DISCOD
+
+[2019-08-07 17:47:15.491] [/bluenet/src/cs_Crownstone.cpp : 331  ] onDisconnect...
+
+[2019-08-07 17:47:15.494] [e/bluenet/src/ble/cs_Stack.cpp : 360  ] Set TX power to 4
+
+[2019-08-07 17:47:15.498] [net/src/ble/cs_ServiceData.cpp : 244  ] Event: EVT_BLE_DISCONNECT
+
+[2019-08-07 17:47:31.043] [/bluenet/src/cs_Crownstone.cpp : 709  ] Memory tick() heap=0x20006fd8, stack=0
+
+[2019-08-07 17:47:35.087] [net/src/ble/cs_ServiceData.cpp : 377  ] sendMeshState
